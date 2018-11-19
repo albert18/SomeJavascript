@@ -14,7 +14,7 @@
 // };
 
 // console.log(makeCoffee(5,10));
-// --------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------Contructor
 
 // Extra script - THIS IS EXTRA
 
@@ -27,4 +27,19 @@
 
 // console.log(new Apple(10, 20, "red", 200)) ;
 
-// -------------------------------------------------------------------------------------- Contructor
+// --------------------------------------------------------------------------------------Prototype
+
+function Apple(color, weight) 
+{
+    this.color = color;
+    this.weight = weight;
+}
+
+Apple.prototype = {
+    eat: function() { return "eat some apple"; },
+    throw: function() { return "throw the apple; "}
+};
+
+var apple1 = new Apple("red", 99);
+var apple2 = new Apple("Blue", 199);
+var apple3 = new Apple("Green", 299);
