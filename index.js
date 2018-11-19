@@ -29,17 +29,28 @@
 
 // --------------------------------------------------------------------------------------Prototype
 
-function Apple(color, weight) 
-{
-    this.color = color;
-    this.weight = weight;
-}
+// function Apple(color, weight) 
+// {
+//     this.color = color;
+//     this.weight = weight;
+// }
 
-Apple.prototype = {
-    eat: function() { return "eat some apple"; },
-    throw: function() { return "throw the apple; "}
-};
+// Apple.prototype = {
+//     eat: function() { return "eat some apple"; },
+//     throw: function() { return "throw the apple; "}
+// };
 
-var apple1 = new Apple("red", 99);
-var apple2 = new Apple("Blue", 199);
-var apple3 = new Apple("Green", 299);
+// var apple1 = new Apple("red", 99);
+// var apple2 = new Apple("Blue", 199);
+// var apple3 = new Apple("Green", 299);
+
+// --------------------------------------------------------------------------------------Loop
+var test = ["A", "B", "C"];
+
+// for(var i = 0; i < test.length; i++) {
+//     console.log(test[i]);
+// }
+
+// for(var i = test.length -1; i >= 0; i--) {
+//     console.log(test[i]);
+// }
